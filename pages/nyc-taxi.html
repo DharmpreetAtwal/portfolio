@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Taxi Service Analysis | Project Details</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/taxi.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="../index.html">← Back to Portfolio</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>NYC Taxi Service Analysis</h1>
+    <a href="../assets/visuals.zip" download="visuals.zip">
+        <h2>Click here to Download .pbix Dashboards</h2>
+    </a>
+    <p>
+      A comprehensive data engineering and analytics project analyzing 38 million taxi trip records. 
+      Leveraged distributed computing with Apache Spark, cloud infrastructure with AWS, containerization 
+      with Docker, and advanced analytics tools to deliver actionable insights on urban transportation patterns.
+    </p>
+    <div class="tags">
+      <span class="tag">PySpark</span>
+      <span class="tag">Pandas</span>
+      <span class="tag">AWS EMR</span>
+      <span class="tag">Terraform</span>
+      <span class="tag">Docker</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">SQL</span>
+      <span class="tag">Power BI</span>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-number">38M</div>
+      <div class="stat-label">Taxi Trip Records</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">100+ GBs</div>
+      <div class="stat-label">Data Processed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">6+</div>
+      <div class="stat-label">Key Insights</div>
+    </div>
+  </div>
+
+  <div class="media-gallery">
+    <div class="gallery-container">
+      <embed src="../assets/visuals.pdf" type="application/pdf">
+      <!-- <div class="gallery-controls">
+        <button id="prevBtn" class="gallery-btn">← Previous</button>
+        <span id="imageCounter" class="image-counter">1 / 1</span>
+        <button id="nextBtn" class="gallery-btn">Next →</button>
+      </div> -->
+    </div>
+  </div>
+
+  <script src="../taxi.js"></script>
+
+
+  <h2 class="section-title">Data Pipeline Architecture</h2>
+  <div class="flow-section">
+    <div class="flow-diagram">
+      <span class="flow-step">📥 Raw Data</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">🔧 PySpark Processing</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">🗄️ PostgreSQL</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-step">📊 Power BI Dashboards</span>
+    </div>
+  </div>
+
+  <h2 class="section-title">Core Technologies & Infrastructure</h2>
+  <div class="grid">
+    <div class="card">
+      <h3><span class="card-icon">⚡</span> Data Processing</h3>
+      <ul>
+        <li>PySpark for distributed computing</li>
+        <li>Pandas for data manipulation</li>
+        <li>Efficient handling of 38M rows</li>
+        <li>Optimized transformation pipelines</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><span class="card-icon">☁️</span> Cloud Infrastructure</h3>
+      <ul>
+        <li>AWS EMR cluster deployment</li>
+        <li>Cost management & optimization</li>
+        <li>Terraform infrastructure-as-code</li>
+        <li>Scalable compute resources</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><span class="card-icon">🐳</span> Containerization</h3>
+      <ul>
+        <li>Docker for pipeline consistency</li>
+        <li>Unified dev & production environments</li>
+        <li>PostgreSQL in Docker containers</li>
+        <li>Reduced setup time & conflicts</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><span class="card-icon">🔍</span> SQL & Analytics</h3>
+      <ul>
+        <li>Complex SQL query design</li>
+        <li>Revenue flow analysis</li>
+        <li>Passenger traffic patterns</li>
+        <li>Data indexing & optimization</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><span class="card-icon">📈</span> Visualization & Reporting</h3>
+      <ul>
+        <li>Interactive Power BI dashboards</li>
+        <li>Dynamic reporting capabilities</li>
+        <li>Excel trend analysis</li>
+        <li>Transportation metrics visualization</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3><span class="card-icon">🎯</span> Key Insights Delivered</h3>
+      <ul>
+        <li>Urban transportation patterns</li>
+        <li>Peak traffic hours & zones</li>
+        <li>Revenue optimization opportunities</li>
+        <li>Passenger behavior analysis</li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 Dharmpreet Atwal</p>
+</footer>
+
+  <script src="../index.js"></script>
+
+
+</body>
+</html>

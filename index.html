@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dharmpreet Atwal | Software & Data Science Portfolio</title>
+  <meta name="description" content="Computer Science portfolio showcasing software engineering and data science projects." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Dharmpreet.dev</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="reveal">
+        <div class="hero-header">
+          <img style="margin-bottom: 1rem;" src="assets/profile.jpg" alt="Dharmpreet Atwal" class="profile-image" />
+          <h1>Dharmpreet Atwal</h1>
+        </div>
+        <p>
+          I build clean, scalable software and enjoy turning data into insight.
+          Currently seeking internships and entry-level roles in software or data science.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p style="max-width: 750px; color: var(--muted)">
+        I'm a Computer Science Graduate with experience across software development, data engineering, and machine learning.
+        I enjoy working end-to-end: from designing systems and writing clean code to analyzing data and communicating results.
+        Outside of coding, I'm interested in Hockey, Skating, and Swimming. 
+      </p>
+    </section>
+
+    <!-- Software Projects -->
+    <section id="projects" class="reveal">
+      <h2>Featured Software Projects</h2>
+      <div class="grid">
+        <div class="card" onclick="window.location.href='https://discourse-e9aff.web.app/'">
+          <h3>💬 Discourse</h3>
+          <p>
+            A Web App where you can send friend requests and chat with them all in Realtime. 
+          </p>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">TailwindCSS</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">NoSQL</span>
+          </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='./pages/planets-explorer.html'">
+          <h3>🪐 Planets Explorer</h3>
+          <p>
+            An astronomy app that creates an explorable 3D model of our solar system.
+          </p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">JavaFX</span>
+            <span class="tag">JUnit</span>
+            <span class="tag">Maven</span>
+            <span class="tag">JIRA</span>
+            <span class="tag">Jenkins</span>
+            <span class="tag">NASA API</span>
+          </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='https://sketch-1d5ihfvz2-dharmatwals-projects.vercel.app/'">
+          <h3>✏️ SketchVG</h3>
+          <p>
+            A drawing program to create and save SVG images.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SVG</span>
+            <span class="tag">JQuery</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">PHP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data Science Projects -->
+    <section id="projects" class="reveal">
+      <h2>Featured Data Science Projects</h2>
+      <div class="grid">
+        <div class="card" onclick="window.location.href='./pages/nyc-taxi.html'">
+          <h3>🚕📊 NYC Taxi Service Analysis</h3>
+          <p>
+            Cloud Processing and Data Analysis of 2023 New York Taxi Trips.  
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">PySpark</span>
+            <span class="tag">AWS EMR</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+          </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='./pages/pacman.html'">
+          <h3>👾🧠 Pac-Man RL</h3>
+          <p>
+            Training a Reinforcement Learning agent to master Pac-Man gameplay.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Neural Networks</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+        </div>
+
+        
+        <div class="card" onclick="window.location.href='./pages/diabetes.html'">
+          <h3>🩺📈 Diabetes Patients Analysis</h3>
+          <p>
+            Developing a K-Means Clustering Model to predict hospital readmissions.  
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag"> Machine Learning </span>
+            <span class="tag"> SciKit-Learn </span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Random Forest</span>
+            <span class="tag">K-Means Clustering</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <img src="assets/toropal_logo.jpg" alt="Toropal logo" class="timeline-image" />
+
+            <div class="timeline-text">
+              <span>May 2025 – Nov 2025 — Toropal, Toronto, ON</span>
+              <h3>Backend Software Developer Intern</h3>
+              <p>
+                Architected, developed, and maintained Node.js and TypeScript backend services and APIs (REST and GraphQL).
+              </p>
+
+              <button class="show-more-btn">Show more</button>
+
+              <ul class="experience-details">
+                <li>Collaborated on System Design and architecture, including defining Microservices, event-driven components, and scaling strategies</li>
+                <li>Designed and optimized PostgreSQL database schemas for reliability, performance, and maintainability</li>
+                <li>Implemented authentication, authorization, and security best practices in the Express.js framework</li>
+                <li>Wrote comprehensive unit, integration, and end-to-end tests; championed test-driven development and participated actively in peer Code Reviews</li>
+                <li>Diagnosed and resolved bugs, performance bottlenecks, and security vulnerabilities; conducted root-cause analysis and post-mortems</li>
+                <li>Set up and maintained CI/CD pipelines, automated deployments, and Infrastructure-As-Code</li>
+                <li>Monitored application health and observability using logging, metrics, and tracing tools; established alerts and SLIs/SLOs</li>
+                <li>Created and maintained up-to-date documentation of services, endpoints, system designs, and release notes</li>
+                <li>Planned and executed data migrations, schema changes, and dependency upgrades with minimal downtime</li>
+                <li>Led and contributed to technical design sessions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <img src="assets/tmu-logo.jpg" alt="Toropal logo" class="timeline-image" />
+
+            <div class="timeline-text">
+              <span>Sept 2021 – May 2025 — Toronto Metropolitan University</span>
+              <h3>Bachelor of Science (Honours) - Computer Science </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p style="color: var(--muted)">Interested in working together or chatting about tech?</p>
+      <p style="margin-top: 1rem">
+        <a href="mailto:dharmpreet1.atwal@gmail.com">dharmpreet1.atwal@gmail.com</a> ·
+        <a href="https://github.com/DharmpreetAtwal" target="_blank">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/dharmpreet-atwal-04a757250/" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Dharmpreet Atwal </p>
+  </footer>
+
+  <script src="./index.js"></script>
+
+</body>
+</html>
